@@ -41,22 +41,20 @@ public class Main {
 
         {
             final String[] names = "Carl,Susie,Fredrick,Bob,Erik".split(",");
-            for (final String name : names)
-            {
+            for (final String name : names) {
                 System.out.println(name);
             }
         }
 
         {
             final char[] chars = "ThisShouldBeConverted".toCharArray();
-            for (final char letter : chars)
-            {
+            for (final char letter : chars) {
                 System.out.println(letter);
             }
         }
 
         {
-            final char[] chars = {'J','a','v','a'};
+            final char[] chars = {'J', 'a', 'v', 'a'};
             System.out.println(String.valueOf(chars));
         }
     }
